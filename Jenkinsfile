@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("Pull Latest Image"){
       steps{
-        bat "docker pull nwatkin3/selniumdocker"
+        bat "docker pull nwatkin3/seleniumdocker"
       }
     }
     stage("Start Grid"){
