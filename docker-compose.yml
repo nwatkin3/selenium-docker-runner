@@ -51,7 +51,7 @@ services:
       - MODULE=book-flight-module.xml
     volumes:
       - ./book-result1:/usr/share/udemy/test-output
-  book-flight-module:
+  book-flight-module2:
     image: nwatkin3/selenium-docker
     depends_on:
       - chrome
